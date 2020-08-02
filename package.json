@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for SitePoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michiel Mulders",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "keyv": "^4.0.1",
+    "sequelize": "^6.3.3",
+    "uuid": "^8.3.0"
+  }
+}
