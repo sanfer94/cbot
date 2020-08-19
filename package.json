@@ -1,19 +1,25 @@
 {
-  "name": "discord-bot",
+  "name": "cbmaid",
   "version": "1.0.0",
-  "description": "Discord bot for SitePoint",
-  "main": "index.js",
+  "description": "",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && nodemon --exec ts-node --watch src src/bot.ts"
   },
-  "author": "Michiel Mulders",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@keyv/sqlite": "^2.0.2",
-    "discord.js": "^11.5.1",
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
-    "keyv": "^4.0.1",
-    "sequelize": "^6.3.3",
-    "uuid": "^8.3.0"
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   }
 }
